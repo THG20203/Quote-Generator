@@ -31,3 +31,14 @@ body {
   font-weight: 700;
   background-image: radial-gradient(#fff, #92c98e);
 }
+
+.quote-container {
+  width: auto;
+  max-width: 60vw;
+  padding: 2rem 3rem;
+  border-radius: 3%;
+  /* opacity 0.4 on end hence rgba */
+  background-color: rgba(255, 255, 255, 0.4);
+  /* box shadow -> horziontal offset 0, vertical offset 10px, blur 10px, radius 10px */
+  box-shadow: 0 5px 10px 10px rgba(0, 0, 0, 0.2);
+}
